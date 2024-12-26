@@ -49,3 +49,13 @@
 .sidebar .recent-entry:hover {
     background-color: #e2e6eb;
 }
+
+.sidebar .bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .bottom-item {
+    padding-right: 10px;
+    cursor: pointer;
+}
