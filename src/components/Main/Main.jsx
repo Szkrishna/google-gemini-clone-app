@@ -1,5 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-// import React from 'react';
+// / import React from 'react';
 import './Main.css';
 import { assets } from "../../assets/assets";
 import { useContext } from 'react';
@@ -66,9 +65,9 @@ const Main = () => {
                     <div className="search-box">
                         <input onChange={(e) => setInput(e.target.value)} value={input} type="text" placeholder='Enter prompt here' />
                         <div>
-                            <img src={assets.gallery_icon} alt="" />
-                            <img src={assets.mic_icon} alt="" />
-                            {input ? <img onClick={() => onSent()} src={assets.send_icon} alt="" /> : null}
+                            <img src={assets.gallery_icon} alt="gallery" />
+                            <img src={assets.mic_icon} alt="mic" />
+                            {input ? <img onClick={() => onSent()} src={assets.send_icon} alt="send" /> : null}
                         </div>
                     </div>
                     <p className='bottom-info'>Gemini my display inaccurate info, including about people, so doubt-check its responses. Your privacy and Gemini App</p>
