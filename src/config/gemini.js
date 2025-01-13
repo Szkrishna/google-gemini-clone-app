@@ -1,10 +1,9 @@
 import {
-    GoogleGenerativeAI,
-    HarmCategory,
-    HarmBlockThreshold,
+    GoogleGenerativeAI
 } from "@google/generative-ai";
 
-const apiKey = "AIzaSyAcn_zg97zbZ_z_C_-8hEgFm86jbwxKHKw";
+// const apiKey = "AIzaSyAcn_zg97zbZ_z_C_-8hEgFm86jbwxKHKw";
+const apiKey = "AIzaSyCiROZdwtHqEa99HBfkySacDg_bio_BIgI";
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
